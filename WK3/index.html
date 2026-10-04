@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <!-- 設定文字編碼，避免中文顯示亂碼 -->
+  <meta charset="UTF-8">
+  <!-- 讓網頁能適應手機與不同螢幕尺寸 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的個人自我介紹</title>
+</head>
+
+<body>
+  <!-- header：網頁的頁首區域 -->
+  <header>
+    <!-- 一個頁面主標題 h1 -->
+    <h1>歡迎來到我的個人網站</h1>
+
+    <!-- nav：放置網頁導覽連結 -->
+    <nav>
+      <!-- 一個本機頁面連結 -->
+      <a href="about.html">關於我 (本機連結)</a> | 
+      
+      <!-- 一個外部連結 (設定 target="_blank" 另開新分頁) -->
+      <a href="https://github.com/412631292/115web_412631292" target="_blank" rel="noreferrer">我的 GitHub (外部連結)</a>
+    </nav>
+  </header>
+
+  <!-- main：網頁的主要內容 -->
+  <main>
+    <!-- section：自我介紹區域 -->
+    <section>
+      <h2>自我介紹</h2>
+      
+      <!-- 一張有正確 alt 的圖片 (使用 profile.jpg) -->
+      <img 
+        src="profile.jpg" 
+        alt="參加大專校院資訊應用服務創新競賽現場照片" 
+        width="400"
+      >
+
+      <!-- 一段自我介紹 p -->
+      <p>
+        哈囉！大家好，我是淡江大學的學生。我目前正在修習「網路程式設計」這門課。
+      </p>
+    </section>
+
+    <!-- section：技能與興趣清單區域 -->
+    <section>
+      <h2>我的興趣與技能</h2>
+      
+      <!-- 一份興趣或技能清單 (無序清單 ul) -->
+      <ul>
+        <li>聽音樂</li>
+        <li>打籃球</li>
+      </ul>
+    </section>
+
+    <!-- section：表格資料區域 -->
+    <section>
+      <h2>近期學習計畫</h2>
+      
+      <!-- 一個包含至少三列資料的表格 -->
+      <!-- 加入 border="1" 讓表格有簡單的邊框比較好看 -->
+      <table border="1">
+        <caption>網路程式設計課程進度表</caption>
+        <thead>
+          <tr>
+            <th scope="col">週次</th>
+            <th scope="col">學習主題與目標</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 第一列資料 -->
+          <tr>
+            <td>第一週</td>
+            <td>熟悉 GitHub 與開發環境設定</td>
+          </tr>
+          <!-- 第二列資料 -->
+          <tr>
+            <td>第二週</td>
+            <td>掌握 Git 版本控制指令基礎</td>
+          </tr>
+          <!-- 第三列資料 -->
+          <tr>
+            <td>第三週</td>
+            <td>完成 HTML 網頁基礎與自我介紹作業</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- footer：網頁的頁尾區域 -->
+  <footer>
+    <p>© 2026 網路程式設計作業 - 個人網站</p>
+  </footer>
+</body>
+
+</html>
