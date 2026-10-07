@@ -1,0 +1,123 @@
+/* 設定所有元素的盒模型 */
+* {
+  box-sizing: border-box;
+}
+
+/* 整個網頁基本設定 */
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft JhengHei", sans-serif;
+  background-color: #f4f7fb;
+  color: #243447;
+  line-height: 1.6;
+}
+
+/* 頁首 */
+header {
+  background-color: #234e70;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+/* 頁尾 */
+footer {
+  background-color: #234e70;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 主要內容 */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+/* 每個內容區塊 */
+section {
+  margin-bottom: 24px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+/* 標題 */
+h1 {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+h2 {
+  color: #234e70;
+}
+
+/* 段落 */
+p {
+  line-height: 1.8;
+}
+
+/* 一般連結 */
+a {
+  color: #1769aa;
+  text-decoration: none;
+}
+
+/* 滑鼠移到連結上 */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Flexbox 導覽列 */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* 導覽列連結 */
+nav a {
+  color: white;
+}
+
+/* 圖片 */
+img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 表格 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+/* 表格框線 */
+th,
+td {
+  border: 1px solid #999999;
+  padding: 10px;
+  text-align: left;
+}
+
+/* 表格標題列 */
+th {
+  background-color: #dbeafe;
+}
+
+/* 表格標題 */
+caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* 清單項目 */
+li {
+  margin-bottom: 8px;
+}
